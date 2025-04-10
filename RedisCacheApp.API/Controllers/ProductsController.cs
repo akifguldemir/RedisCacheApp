@@ -9,7 +9,7 @@ namespace RedisCacheApp.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductRepository _productRepository;
+        private readonly IProductRepository _productRepository; 
 
         public ProductsController(IProductRepository productRepository)
         {
